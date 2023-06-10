@@ -10,6 +10,8 @@
 	import { balanceOnBlock } from '$lib/stores/state';
 	import { formatEther } from 'ethers/lib/utils';
 	import Auction from '$lib/components/Auction.svelte'
+	import Buyer from '$lib/components/Buyer.svelte'
+	import Seller from '$lib/components/Seller.svelte';
 </script>
 
 <main class="flex flex-col p-10 w-screen h-screen items-center gap-5 font-serif">
